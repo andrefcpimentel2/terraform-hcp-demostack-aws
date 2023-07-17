@@ -202,3 +202,8 @@ variable "hcp_boundary_cluster_tier"{
     error_message = "Valid values for var: hcp_boundary_cluster_tier are (Standard, Plus)."
   } 
 }
+
+variable "create_eks_cluster" {
+  default     = true
+  description = "To create or not an EKS cluster"
+}
