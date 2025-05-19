@@ -2,7 +2,7 @@ resource "hcp_hvn" "demostack" {
   hvn_id         = var.namespace
   cloud_provider = "aws"
   region         = var.region
-  cidr_block     = "172.25.16.0/20"
+  cidr_block     = "172.30.16.0/20"
 }
 
 
