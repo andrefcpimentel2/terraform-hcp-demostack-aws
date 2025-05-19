@@ -209,7 +209,7 @@ variable "hcp_boundary_cluster_tier"{
 variable "tfc_varset_name" {
   description = "The name of the TFC variable set"
   type        = string
-  default     = "com_showcase"
+  default     = "com_showcase-andre"
 }
 
 variable "tfc_organization_name" {

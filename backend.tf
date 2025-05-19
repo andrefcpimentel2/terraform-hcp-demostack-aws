@@ -5,7 +5,7 @@ terraform {
     hostname     = "app.terraform.io"
     organization = "emea-se-playground-2019"
     workspaces {
-      name = "GUY-HCP-Demostack-AWS"
+      name = "Andre-HCP-AWS-Demostack"
     }
   }
   }
